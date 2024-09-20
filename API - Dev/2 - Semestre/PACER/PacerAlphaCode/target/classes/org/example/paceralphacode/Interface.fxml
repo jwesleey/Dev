@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.15" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22">
+  <items>
+      <VBox alignment="CENTER" prefHeight="398.0" prefWidth="0.0" style="-fx-background-color: #A9B8A7;">
+         <children>
+            <Button fx:id="botaohome" mnemonicParsing="false" prefHeight="62.0" prefWidth="423.0" text="Home">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="botaogerenciaraluno" mnemonicParsing="false" prefHeight="62.0" prefWidth="417.0" text="Gerenciar Aluno">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="botaogerenciarnotas" mnemonicParsing="false" prefHeight="62.0" prefWidth="342.0" text="Gerenciar Notas">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="botaogerenciarsprints" mnemonicParsing="false" prefHeight="62.0" prefWidth="476.0" text="Gerenciar Sprints">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="botaogerenciargrupos" mnemonicParsing="false" prefHeight="62.0" prefWidth="530.0" text="Gerenciar Grupos">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="95.0">
+         <children>
+            <Label layoutX="272.0" layoutY="366.0" prefHeight="42.0" prefWidth="510.0" text="Sistema de Avaliação PACER">
+               <font>
+                  <Font name="Arial Bold" size="35.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="fatec" fitHeight="110.0" fitWidth="200.0" layoutX="459.0" layoutY="157.0" nodeOrientation="INHERIT" preserveRatio="true">
+               <image>
+                  <Image url="@images/Imagem1.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
